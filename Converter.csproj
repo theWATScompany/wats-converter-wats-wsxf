@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-windows;net48</TargetFrameworks>
+    <RootNamespace>Virinco.WATS.Converter.WATS.WSXF</RootNamespace>
+    <AssemblyName>Virinco.WATS.Converter.WATS.WSXF</AssemblyName>
+    <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="Virinco.WATS.Testing" Version="*" />
+    <Compile Remove="ConverterTests.cs" />
+  </ItemGroup>
+<ItemGroup>
+    <PackageReference Include="Virinco.WATS.Testing" Version="*" />
+    <PackageReference Include="Virinco.WATS.ClientAPI" Version="7.*" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Virinco.WATS.Testing" Version="*" />
+    <None Include="Data\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿{
+    "converter_name": "WSXF Converter",
+    "links": [
+        {
+            "label": "WATS Standard XML Format (WSXF)",
+            "url": "https://support.wats.com/hc/en-us/articles/207424643-Wats-Standard-Xml-Format-WSXF"
+        },
+        {
+            "label": "Post WSXF using the REST API",
+            "url": "https://support.wats.com/hc/en-us/articles/360013383500-Post-WSXF"
+        }
+    ]
+}
